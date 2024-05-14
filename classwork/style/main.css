@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 380px;
+    height: 380px;
+    background: red;
+    transition: 1s;
+    
+    margin: 50px auto;
+    transform: perspective(600px) rotateY(-30deg);
+    border-radius: 50%;
+
+}
+.box p{
+    font-size: 20px;
+    color: white;
+}
+.box:hover{
+    border-radius: 20px;
+    transform: translate( 30px, 50px );
+    /* chozadi */
+    transform: scale(2);
+    /* rotate - aylantiradi */
+    transform: rotate(40deg);
+    transform: rotateX(180deg);
+    transform: rotateY(720deg);
+
+
+
+    transform: skewY(30deg);
+    transform: skewX(30deg);
+}
